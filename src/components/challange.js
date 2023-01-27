@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 
 import Grid from '@mui/joy/Grid';
 import Featurechallange from './featurechallange';
+import Challenges from './Challenges';
 const Challange=()=>{
     const datas=["Technology","Arts & Design,Energy","Environment and Resources","Infrastructures","Fnanace","Covid-19","Space"];
 
@@ -15,7 +16,7 @@ const Challange=()=>{
     <div style={{marginTop:100}} >
     <Container >
     <Typography component="h1" variant="h3" color="#004d40" style={{fontWeight:600}}>
-            Explore Challanges
+            Explore Challenges
             </Typography>
           <Typography variant="h6" sx={{ml:0,mt:1,mb:1,fontWeight:550,fontFamily:'poppins',fontSize:18}}>Find a challenge, solve it, make a difference.</Typography>
           <Typography  variant="h4" color="#004d40" sx={{fontSize:26,fontWeight:600,mb:2,fontFamily:'poppins'}}>
@@ -34,6 +35,7 @@ const Challange=()=>{
       ))}
     </Grid>
     <Featurechallange/>
+    <Challenges />
           </Container>
           </div>
         </>
