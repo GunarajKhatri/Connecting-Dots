@@ -145,6 +145,9 @@ let showingpart;
     navigate("/home");
 
   }
+  const redirect=()=>{
+    navigate("/home");
+  }
   
 
   
@@ -160,9 +163,9 @@ let showingpart;
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2 }}
-          >
+            onClick={redirect}>
           <img src="/logo1.png" sx={{borderRadius:5}} style={{maxHeight:40,maxWidth:50}}/>
-          </IconButton>
+          </IconButton >
           <Typography
             variant="h5"
             noWrap
