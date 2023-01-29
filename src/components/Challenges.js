@@ -6,9 +6,14 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import Grid from '@mui/joy/Grid';
 import Stack from '@mui/material/Stack';
+import { useNavigate } from "react-router-dom";
 import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
 
 export default function Challenges() {
+  const navigate=useNavigate();
+  const viewchallenge=()=>{
+   navigate("/1/challenge");
+  }
     const Challenges=[
         {   id:1,
             title:"Buildings Upgrade Prize",
@@ -57,7 +62,7 @@ export default function Challenges() {
   { Challenges.map((chall,index)=>(
       <Grid xs={2} sm={4} md={4} key={index} >
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+      <CardActionArea onClick={viewchallenge}>
         <CardMedia
           component="img"
           height="180"
