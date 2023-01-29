@@ -23,19 +23,19 @@ export default function Challenges() {
         },
         {   id:2,
             title:"Buildings Upgrade Prize",
-            image_url:"challangef1.jpeg",
+            image_url:"mill1.jpg",
             descrip:"We invite innovators from all over the world to submit ideas for experiments or tests that could be conducted on the Moon."
             
         },
         {   id:3,
             title:"Buildings Upgrade Prize",
-            image_url:"challangef1.jpeg",
+            image_url:"bus1.jpg",
             descrip:"We invite innovators from all over the world to submit ideas for experiments or tests that could be conducted on the Moon."
             
         },
         {   id:4,
             title:"Buildings Upgrade Prize",
-            image_url:"challangef1.jpeg",
+            image_url:"construct1.jpg",
             descrip:"We invite innovators from all over the world to submit ideas for experiments or tests that could be conducted on the Moon."
             
         },
@@ -47,7 +47,7 @@ export default function Challenges() {
         },
         {   id:6,
             title:"Buildings Upgrade Prize",
-            image_url:"challangef1.jpeg",
+            image_url:"mill1.jpg",
             descrip:"We invite innovators from all over the world to submit ideas for experiments or tests that could be conducted on the Moon."
             
         },
